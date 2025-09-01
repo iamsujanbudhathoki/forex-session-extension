@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.app-container {
+  width: 380px;
+  height: 100%;
+  overflow: scroll;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app-container.dark-mode {
+  background: #1a1a1a;
+  color: #ffffff;
+}
+
+.app-container.light-mode {
+  background: #f8f9fa;
+  color: #1a1a1a;
+}
+
+.brand-color {
+  color: #00d4aa;
+}
+
+.countdown-font {
+  font-family: 'Monaco', 'Consolas', monospace;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 3px;
+}
