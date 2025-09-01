@@ -1,8 +1,8 @@
-import { useState, useMemo } from "react";
+import { useMemo, useState } from "react";
 import type { ISessionData } from "../types";
 
-import { convertTimeToTimezone } from "../utils/timeUtils";
 import { SESSIONS_DATA } from "../utils/constants";
+import { convertTimeToTimezone } from "../utils/timeUtils";
 
 
 export const useSession = (selectedTimeZone: string) => {

@@ -1,5 +1,5 @@
-import React from 'react';
 import { ConfigProvider, theme } from 'antd';
+import React from 'react';
 import ForexSessionTracker from './components/ForexSessionTracker';
 import { useTheme } from './hooks/useTheme';
 

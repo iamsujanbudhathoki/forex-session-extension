@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
-import { useSession } from './useSession';
 import type { TIMEZONES_LIST } from '../utils/constants';
+import { useSession } from './useSession';
 
 
 

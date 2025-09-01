@@ -1,10 +1,10 @@
 import { BellOutlined } from '@ant-design/icons';
 import { Card, Space, Switch, Typography } from 'antd';
 import React, { useEffect, useState } from 'react';
-import type { ISessionData, ITime } from '../types';
-import { getNextKillzone, getTimeUntilNext, isSessionActive } from '../utils/timeUtils';
 import { useSession } from '../hooks/useSession';
+import type { ITime } from '../types';
 import type { TIMEZONES_LIST } from '../utils/constants';
+import { getNextKillzone, getTimeUntilNext, isSessionActive } from '../utils/timeUtils';
 
 const { Title, Text } = Typography;
 
